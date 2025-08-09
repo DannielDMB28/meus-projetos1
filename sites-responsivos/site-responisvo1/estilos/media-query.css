@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    .destaque .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recursos .container {
+        grid-template-columns: 1fr;
+    }
+
+    .cta {
+        padding: 20px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        flex-direction: column;
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+        max-height: 0;
+        align-items: center;
+    }
+
+    .menu.ativo{
+        max-height: 200px;
+    }
+
+    .botao-menu {
+        display: block;
+    }
+}

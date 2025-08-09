@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Document</title>
 </head>
 <body>
+
     <header class="cabecalho">
         <nav class="container navegacao">
             <div class="logo">
                 EcoTech
             </div>
+            <button class="botao-menu">☰</button>
 
-            <ul>
+            <ul class="menu ">
                 <li>
                     <a href="#">Início</a>
                 </li>
@@ -74,4 +77,12 @@
         <a href="#" class="botao">Comprar agora</a>
     </section>
 </body>
+<script>
+    let botao = document.querySelector('.botao-menu');
+    let menu = document.querySelector('.menu');
+
+    botao.addEventListener('click', () => {
+        menu.classList.toggle('ativo')
+    });
+</script>
 </html>
