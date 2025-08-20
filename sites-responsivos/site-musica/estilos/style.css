@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section-music {
+    background-image: linear-gradient(to left, transparent, #b3e5fc, transparent);
+    height: 100vh;
+    min-height: 100vh;
+    
+    
+}
+
+.section-music h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+}
+
+
+.nav {
+    background-color: blueviolet;
+    margin: 0 40rem;
+    padding: 10px;
+    margin-top: 1rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.nav a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #c29fd3;
+    margin: 0 1rem;
+}
