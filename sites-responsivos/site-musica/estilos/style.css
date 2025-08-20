@@ -9,10 +9,7 @@
 
 .section-music {
     background-image: linear-gradient(to left, transparent, #b3e5fc, transparent);
-    height: 100vh;
-    min-height: 100vh;
-    
-    
+    height: 100vh; 
 }
 
 .section-music h1 {
